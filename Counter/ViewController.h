@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    int counter;
+    __weak IBOutlet UILabel *countLabel;
+}
+- (IBAction)plusButton:(id)sender;
 
 @end

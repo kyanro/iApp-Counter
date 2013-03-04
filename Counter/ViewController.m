@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)plusButton:(id)sender {
+    counter++;
+    countLabel.text = [NSString stringWithFormat:@"%d",counter];
+}
+
 @end
